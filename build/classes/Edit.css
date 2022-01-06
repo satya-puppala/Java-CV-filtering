@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-Nov-2018, 15:15:11
+    Author     : satya
+*/
+.root{
+   -fx-background-color:linear-gradient(#f0f0f0,#99b9f3);
+   -fx-font-color: black;
+}
+.list-view:focused .list-cell:filled:focused:selected:hover {
+    -fx-background: rgba(255, 255, 255, 0.8);
+    -fx-background-color: rgba(86, 163, 143, 0.9);
+}
+
+.list-view:focused .list-cell:filled:focused:selected {
+    -fx-background-color: rgba(86, 163, 143, 0.9);
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #b3e3ef;
+}
+
+.list-cell{
+     -fx-alignment: center;
+}
+
+.button{
+    -fx-background-color: rgba(0, 0, 0,0.6);
+}
+TextField{
+    -fx-alignment: center;
+}
+.text-area *.text {
+    -fx-text-alignment: center;
+}
+.text-area {
+    -fx-border-color: blue ;  
+ -fx-border-width: 2px ;
+}
+HBox,VBox
+{
+     -fx-alignment: center;
+}
+label
+{
+     -fx-alignment: center;
+}
+.button {
+    -fx-background-color: 
+        #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+.button Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+.button:hover
+{
+    -fx-background-color: rgba(86, 163, 143, 0.9);
+}

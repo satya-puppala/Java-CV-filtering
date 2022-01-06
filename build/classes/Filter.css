@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-Nov-2018, 15:15:11
+    Author     : satya
+*/
+.root{
+    -fx-background-image: url("images/scene2.png");
+    -fx-font-color: black;
+    -fx-font-size:10pt;
+}
+
+.list-view:focused .list-cell:filled:focused:selected:hover {
+    -fx-background: rgba(255, 255, 255, 0.8);
+    -fx-background-color: rgba(86, 163, 143, 0.9);
+}
+
+.list-view:focused .list-cell:filled:focused:selected {
+    -fx-background-color: rgba(86, 163, 143, 0.9);
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #b3e3ef;
+}
+
+.list-cell{
+     -fx-alignment: center;
+}
+
+.button{
+    -fx-background-color: rgba(0, 0, 0,0.6);
+}
+TextField{
+    -fx-alignment: center;
+}
+.text-area *.text {
+    -fx-text-alignment: center;
+}
+HBox,VBox
+{
+     -fx-alignment: center;
+}
+label
+{
+     -fx-alignment: center;
+}
+.button:hover
+{
+    -fx-background-color: rgba(86, 163, 143, 0.9);
+}
